@@ -30,31 +30,35 @@ When a user shares a video link, Auralis automatically detects the products, the
 ---
 
 ## Project Structure
-Auralis/\n
-│\n
-├── frontend/ # React Native (Expo) app\n
-│   ├── src/\n
-│   │   ├── components/ # UI components\n
-│   │   ├── screens/ # Navigation screens\n
-│   │   ├── services/ # API calls\n
-│   │   └── utils/ # Helpers and constants\n
-│   └── package.json\n
-│\n
-├── backend/ # FastAPI backend\n
-│   ├── app/\n
-│   │   ├── main.py # Entrypoint\n
-│   │   ├── routes/ # API endpoints\n
-│   │   ├── models/ # Data models / schemas\n
-│   │   ├── services/ # GPT-4o, AWS integrations\n
-│   │   └── utils/\n
-│   └── requirements.txt\n
-│\n
-├── infrastructure/ # Deployment scripts, CI/CD\n
-│   ├── Dockerfile\n
-│   ├── lambda_handler.py\n
-│   └── github-actions.yml\n
-│\n
-└── README.md\n
+## Project Structure
+
+```
+Auralis/
+│
+├── frontend/ # React Native (Expo) app
+│   ├── src/
+│   │   ├── components/ # UI components
+│   │   ├── screens/ # Navigation screens
+│   │   ├── services/ # API calls
+│   │   └── utils/ # Helpers and constants
+│   └── package.json
+│
+├── backend/ # FastAPI backend
+│   ├── app/
+│   │   ├── main.py # Entrypoint
+│   │   ├── routes/ # API endpoints
+│   │   ├── models/ # Data models / schemas
+│   │   ├── services/ # GPT-4o, AWS integrations
+│   │   └── utils/
+│   └── requirements.txt
+│
+├── infrastructure/ # Deployment scripts, CI/CD
+│   ├── Dockerfile
+│   ├── lambda_handler.py
+│   └── github-actions.yml
+│
+└── README.md
+```
 
 ---
 ## Setup Guide
